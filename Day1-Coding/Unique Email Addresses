@@ -20,3 +20,18 @@ Output: 2
 Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
 
 Solution 
+
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        li=set({})
+        for i in emails:
+            p=i.split("@")
+            q=p[0].split("+")
+            n= str(q[0].replace(".",""))
+            stri=n+'@'+p[1]
+            print(stri)
+            li.add(stri)
+        return len(li)
+            
+            
+        
