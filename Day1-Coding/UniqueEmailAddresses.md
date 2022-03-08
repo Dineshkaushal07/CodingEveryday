@@ -22,7 +22,6 @@ Given an array of strings emails where we send one email to each emails[i], retu
  ```
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
-## collapsible markdown?
 
 <details><summary>CLICK ME</summary>
 <p>
@@ -36,8 +35,7 @@ print("hello world!")
 </p>
 </details>
 
-<details>
-<summary><b>Solution</b></summary>
+<details><summary><b>Solution</b></summary>
 <p>
 ```python
 class Solution:
