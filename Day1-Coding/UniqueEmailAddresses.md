@@ -23,7 +23,7 @@ Given an array of strings emails where we send one email to each emails[i], retu
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 # Solution 
-
+```
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         li=set({})
@@ -35,6 +35,6 @@ class Solution:
             print(stri)
             li.add(stri)
         return len(li)
-            
+ ```           
             
         
