@@ -14,12 +14,12 @@ It is possible to use both of these rules at the same time.
 Given an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.
 
  </p>
-```
-## Example 1:
-
-### Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
-### Output: 2
-#### Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. ```
+ ```
+ Example 1:
+ Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+ Output: 2
+ Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. 
+ ```
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 # Solution 
