@@ -37,6 +37,7 @@ print("hello world!")
 
 <details><summary><b>Solution</b></summary>
 <p>
+ #### yes, even hidden code blocks!
 ```python
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
