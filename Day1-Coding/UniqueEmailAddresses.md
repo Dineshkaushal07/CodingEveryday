@@ -23,7 +23,7 @@ Given an array of strings emails where we send one email to each emails[i], retu
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 
-<details><summary>CLICK ME</summary>
+<details><summary>Solution</summary>
 <p>
 
 
