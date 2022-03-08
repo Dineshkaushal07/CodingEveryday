@@ -14,9 +14,9 @@ It is possible to use both of these rules at the same time.
 Given an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.
 
 
- ``` Javascript
+ ```
  Example 1:
- Input: emails =``` ```["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]```
+ Input: emails =["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]```
  Output: 2
  Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. 
  ```
