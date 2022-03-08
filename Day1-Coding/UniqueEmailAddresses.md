@@ -1,4 +1,4 @@
-# Question Statement 
+# [UniqueEmailAddresses](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.
 
@@ -19,10 +19,7 @@ Given an array of strings emails where we send one email to each emails[i], retu
  Input: emails =["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
  Output: 2
  Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. 
- ```
-[Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
-
-
+ ``` 
 <details><summary>Solution</summary>
 <p>
 
