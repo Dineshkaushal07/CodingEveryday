@@ -17,9 +17,9 @@ Given an array of strings emails where we send one email to each emails[i], retu
 
 ## Example 1:
 
-### Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+### Input: ```emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]```
 ### Output: 2
-#### Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+#### Explanation:``` "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.```
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 # Solution 
