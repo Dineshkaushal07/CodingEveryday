@@ -28,7 +28,17 @@ Given an array of strings emails where we send one email to each emails[i], retu
 
 
 ```python
-print("hello world!")
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        li=set({})
+        for i in emails:
+            p=i.split("@")
+            q=p[0].split("+")
+            n= str(q[0].replace(".",""))
+            stri=n+'@'+p[1]
+            print(stri)
+            li.add(stri)
+        return len(li)
 ```
 
 </p>
