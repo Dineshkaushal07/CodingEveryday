@@ -44,24 +44,8 @@ class Solution:
 </p>
 </details>
 
-<details><summary>Solution</summary>
-<p>
- #### yes, even hidden code blocks!
-```python
-class Solution:
-    def numUniqueEmails(self, emails: List[str]) -> int:
-        li=set({})
-        for i in emails:
-            p=i.split("@")
-            q=p[0].split("+")
-            n= str(q[0].replace(".",""))
-            stri=n+'@'+p[1]
-            print(stri)
-            li.add(stri)
-        return len(li)
-```
-</p>
-</details>
+
+
      
             
         
