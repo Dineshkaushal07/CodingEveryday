@@ -44,8 +44,10 @@ class Solution:
 </p>
 </details>
 
-<details><summary> C</summary>
+<details><summary>C</summary>
 <p>
+ 
+ 
 ```python
  print("H")
 '''
