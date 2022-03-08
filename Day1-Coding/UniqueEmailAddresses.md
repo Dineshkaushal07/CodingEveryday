@@ -21,6 +21,8 @@ Given an array of strings emails where we send one email to each emails[i], retu
  Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. 
  ```
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
+
+<!-- This is commented out. -->
 ```  
 <details>
 <summary><b>Solution</b></summary>
