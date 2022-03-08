@@ -44,7 +44,7 @@ class Solution:
 </p>
 </details>
 
-<details><summary><b>Solution</b></summary>
+<details><summary>Solution</summary>
 <p>
  #### yes, even hidden code blocks!
 ```python
