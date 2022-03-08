@@ -23,6 +23,12 @@ Given an array of strings emails where we send one email to each emails[i], retu
 [Leetcode Problem Statement link](https://leetcode.com/explore/interview/card/google/67/sql-2/3044/) 
 
 # Solution 
+<details>
+<summary><b>My section header in bold</b></summary>
+
+Any folded content here. It requires an empty line just above it.
+
+</details>
 ```
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
