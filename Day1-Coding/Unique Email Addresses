@@ -1,3 +1,5 @@
+#Question Statement 
+
 Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.
 
 For example, in "alice@leetcode.com", "alice" is the local name, and "leetcode.com" is the domain name.
@@ -13,13 +15,13 @@ Given an array of strings emails where we send one email to each emails[i], retu
 
  
 
-Example 1:
+##Example 1:
 
-Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
-Output: 2
-Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+###Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+###Output: 2
+####Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
 
-Solution 
+#Solution 
 
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
