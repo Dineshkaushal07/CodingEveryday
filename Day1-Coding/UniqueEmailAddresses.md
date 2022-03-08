@@ -24,7 +24,7 @@ Given an array of strings emails where we send one email to each emails[i], retu
   
 <details>
 <summary><b>Solution</b></summary>
-
+```
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         li=set({})
@@ -36,7 +36,7 @@ class Solution:
             print(stri)
             li.add(stri)
         return len(li)
-
+```
 </details>
        
             
