@@ -16,10 +16,9 @@ Note that the two extra dashes are not needed and can be removed.
 ```
 
 <details><summary>Solution</summary>
-
-  <p>
+<p>
     
-    ```python
+```python
     class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
         n=""
