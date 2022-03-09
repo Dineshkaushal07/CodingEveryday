@@ -41,5 +41,5 @@ Note that the two extra dashes are not needed and can be removed.
         return p.upper()
 ```
 </p>
-<details>
+</details>
 
