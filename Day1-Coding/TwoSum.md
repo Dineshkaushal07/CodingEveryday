@@ -14,7 +14,7 @@ Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 ## Brute Force - Complexity O(n^2)
-<detail><summary>Solution</summary>
+<details><summary>Solution</summary>
 
 <p>
   
@@ -28,4 +28,4 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
                     return [i,j]
 ```
 </p>
-</detail>
+</details>
