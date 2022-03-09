@@ -39,7 +39,7 @@ Note that the two extra dashes are not needed and can be removed.
         for i in range(len(q)-1,-1,-1):
             p=p+q[i]
         return p.upper()
-    ```
-  </p>
-  <details>
+```
+</p>
+<details>
 
