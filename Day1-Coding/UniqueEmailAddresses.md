@@ -20,6 +20,7 @@ Given an array of strings emails where we send one email to each emails[i], retu
  Output: 2
  Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails. 
  ``` 
+ Time Complexity O(n) and Space Complexity O(n)
 <details><summary>Solution</summary>
 <p>
 
