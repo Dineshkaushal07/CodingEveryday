@@ -14,7 +14,7 @@ Output: "5F3Z-2E9W"
 Explanation: The string s has been split into two parts, each part has 4 characters.
 Note that the two extra dashes are not needed and can be removed.
 ```
-
+Time Complexity O(2n) Space Complexity O(2n)
 <details><summary>Solution</summary>
 <p>
     
