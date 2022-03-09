@@ -13,6 +13,34 @@ Input: s = "5F3Z-2e-9-w", k = 4
 Output: "5F3Z-2E9W"
 Explanation: The string s has been split into two parts, each part has 4 characters.
 Note that the two extra dashes are not needed and can be removed.
-
 ```
+
+<details><summary>Solution</summary>
+
+  <p>
+    
+    ```
+    class Solution:
+    def licenseKeyFormatting(self, s: str, k: int) -> str:
+        n=""
+        counter=0
+        for i in range(len(s)-1,-1,-1):
+            if s[i].isalnum():
+                counter=counter+1
+                n=n+s[i]
+                if counter%k==0:
+                    n=n+'-'
+        if counter==0:
+            return ""
+        if n[len(n)-1]=='-':
+            q=n[:len(n)-1]
+        else:
+            q=n[:len(n)]
+        p=""
+        for i in range(len(q)-1,-1,-1):
+            p=p+q[i]
+        return p.upper()
+    ```
+  </p>
+  <details>
 
