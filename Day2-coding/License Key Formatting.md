@@ -19,7 +19,7 @@ Note that the two extra dashes are not needed and can be removed.
 
   <p>
     
-    ```
+    ```python
     class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
         n=""
