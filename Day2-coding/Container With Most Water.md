@@ -16,9 +16,9 @@ can contain is 49.
 ```
 Time Complexity O(n) Space Complexity O(1) 
 <details><summary>Solution</summary>
-  <p>
+<p>
     
-    ```python
+```python
     class Solution:
     def maxArea(self, height: List[int]) -> int:
         water=0
@@ -31,7 +31,7 @@ Time Complexity O(n) Space Complexity O(1)
             else:
                 j=j-1
         return water
-    ```
-  </p>  
+```
+</p>  
 </details>
     
