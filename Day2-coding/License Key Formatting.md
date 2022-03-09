@@ -7,6 +7,7 @@ We want to reformat the string s such that each group contains exactly k charact
 Return the reformatted license key.
 </p>
 ```
+
 Input: s = "5F3Z-2e-9-w", k = 4
 Output: "5F3Z-2E9W"
 Explanation: The string s has been split into two parts, each part has 4 characters.
