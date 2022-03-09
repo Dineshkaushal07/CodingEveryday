@@ -13,7 +13,8 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
-## Brute Force - Time Complexity O(n^2) Space O(1)
+## Brute Force 
+Time Complexity O(n^2) Space O(1)
 <details><summary>Solution</summary>
 
 <p>
@@ -30,7 +31,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 </p>
 </details>
 
-## Improved Solution - Time Complexity O(n) Space O(n)
+## Improved Solution 
+Time Complexity O(n) Space O(n)
 <details><summary>Solution</summary>
 
 <p>
