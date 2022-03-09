@@ -15,6 +15,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 ## Brute Force - Complexity O(n^2)
 <detail><summary>Solution</summary>
+
 <p>
   
 ```python
