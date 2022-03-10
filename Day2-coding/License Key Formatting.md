@@ -15,7 +15,7 @@ Explanation: The string s has been split into two parts, each part has 4 charact
 Note that the two extra dashes are not needed and can be removed.
 ```
 Time Complexity O(2n) Space Complexity O(2n)
-<details><summary>Solution</summary>
+<details><summary>Solution 1</summary>
 <p>
     
 ```python
@@ -43,3 +43,32 @@ Time Complexity O(2n) Space Complexity O(2n)
 </p>
 </details>
 
+Time Complexity O(n) Space Complexity O(2n)
+<details><summary>Solution 2</summary>
+<p>
+    
+```python
+class Solution:
+    def licenseKeyFormatting(self, s: str, k: int) -> str:
+        n=""
+        counter=0
+        for i in range(len(s)-1,-1,-1):
+            if s[i].isalnum():
+                counter=counter+1
+                n=n+s[i]
+                if counter%k==0:
+                    n=n+'-'
+        if counter==0:
+            return ""
+        if n[len(n)-1]=='-':
+            q=n[:len(n)-1]
+        else:
+            q=n[:len(n)]
+        
+        return q[::-1].upper()
+ ```
+</p>
+</details>           
+            
+            
+        
