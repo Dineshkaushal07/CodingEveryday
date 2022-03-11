@@ -20,7 +20,7 @@ Time Complexity O(n^2) and Space complexity O(no. of distinct Chracters)
 <details><summary>Solution1:</summary>
 <p>
     
-```
+```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         di={}
@@ -52,7 +52,7 @@ TimeComplexity O(n) Space Complexity O(m) where m is the Charset Table .
 <details><summary>Solution2:</summary>
 <p>
     
-```        
+```python        
     class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
             chars = [None] * 128
