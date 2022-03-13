@@ -12,7 +12,7 @@ Explaination: 9 in binary is 1001 so no of 1's in 9 are 2
 <p>
 
 ```python
-a=input()
+a=int(input())
 count=0
 while(a):
     if a&1:
